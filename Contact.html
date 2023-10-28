@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="author" content="Andrew Lia">
+    <meta name="keywords" content="Haarlemmerhoutkwartier, Haarlem, moving, housing, pictures">
+    <meta name="description" content="This website informs the reader about the pros and cons of Haarlemmerhoutkwartier">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Why move to Haarlemmerhoutkwartier?</title>
+    <link rel="icon" type="image/x-icon" href="img/Favicon.png">
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+        <a href="Homepage.html"><img class="icon" src="./img/Favicon.png" title="The website's icon" alt="The website's icon"></a>
+        <img src="./img/MobileMenu.png" class="mobile-menu" title="An example menu" alt="An example menu">
+        <a href="Page4.html"><img class="mobile-leftarrow" src="./img/mobileLeftbutton.png" title="An arrow taking you the previous page" alt="An arrow taking you the previous page"></a>
+        <nav>
+            <ul>
+                <li class="homeButton nav-button"><a href="./Homepage.html">Home</a></li>
+            <li class="nav-button"><a href="./Page1.html">Pros</a></li>
+                <li class="nav-button"><a href="./Page2.html">Cons</a></li>
+                <li class="nav-button"><a href="./Page3.html">Conclusion</a></li>
+                <li class="nav-button"><a href="./Page4.html">Gallery</a></li>
+                <li class="contactButton currentPage nav-button"><a href="./Contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Contact us</h1>
+
+    <p class="contact-text">
+     If you have any questions, suggestions, or want specific advice about something, let us know! You can do this by filling out the form below;
+     this will let us contact you and help with what you ask. The form on the right is an example of how you could fill it out. 
+    </p>
+
+    <section class="contact">
+        <form action="ContactSubmitted.html">
+            <fieldset>
+                <legend>Contact info:</legend>
+                <section class="radiobutton">
+                    <label for="Mr">Mr.</label>
+                    <input type="radio" id="Mr" name="title" value="Mr">
+            
+                    <label for="Mrs">Mrs.</label>
+                    <input type="radio" id="Mrs" name="title" value="Mrs">
+
+                    <label for="Other">Other</label>
+                    <input type="radio" id="Other" name="title" value="Other">
+                </section>
+
+                <section class="name">
+                    <label for="Name">Name*</label>
+                    <input type="text" id="Name" placeholder="Enter your name here">
+                </section>
+
+                <section class="email">
+                    <label for="Email">Email*</label>
+                    <input type="email" id="Email" placeholder="Enter your email here">
+                </section>
+
+                <section class="tel">
+                    <label for="Tel">Phone number</label>
+                    <input type="tel" id="Tel" placeholder="Enter your phone number here">
+                </section>
+
+                <section class="message">
+                    <label for="Message">Request/Question</label>
+                    <textarea id="Message" name="message" rows="3" cols="40">Ask any questions that you have</textarea>
+                </section>
+
+                <section>
+                    <input type="submit" class="submit" value="Submit">  
+                </section>
+            
+                <p class="required">*required field</p>
+            </fieldset>
+        </form>
+
+        <p class="line"></p>
+
+        <aside>
+            <form class="example-form">
+                <fieldset>
+                    <legend>Contact info:</legend>
+                    <section class="radiobutton">
+                        <label for="Mr-example">Mr.</label>
+                        <input type="radio" id="Mr-example" name="title" value="Mr" checked>
+            
+                        <label for="Mrs-example">Mrs.</label>
+                        <input type="radio" id="Mrs-example" name="title" value="Mrs">
+
+                        <label for="Other-example">Other</label>
+                        <input type="radio" id="Other-example" name="title" value="Other">
+                    </section>
+
+                    <section class="name">
+                        <label for="Name-example">Name*</label>
+                        <input type="text" id="Name-example" placeholder="John Doe">
+                    </section>
+
+                    <section class="email">
+                        <label for="Email-example">Email*</label>
+                        <input type="email" id="Email-example" placeholder="JDoe99@examplemail.com">
+                    </section>
+
+                    <section class="tel">
+                        <label for="Tel-example">Phone number</label>
+                        <input type="tel" id="Tel-example" placeholder="(+31) 06 12345678">
+                    </section>
+
+                    <section class="message">
+                        <label for="Message-example">Request/Question</label>
+                        <textarea id="Message-example" name="message" rows="3" cols="40">I am very appreciative of the information on this site and just wanted to say “thank you!”</textarea>
+                    </section>
+
+                    <section>
+                    <input type="submit" class="submit" value="Submit">  
+                    </section>
+            
+                    <p class="required">*required field</p>   
+                </fieldset>       
+            </form>    
+        </aside>
+    </section>
+
+    <section class="contact-buttons">
+        <figure class="contact-figure">        
+            <a href="Page3.html"><img class="left-button" src="./img/leftButton.png" title="An arrow taking you to the previous page" alt="An arrow taking you to the previous page"></a>
+            <figcaption class="contact-caption">Conclusion</figcaption>
+        </figure>
+        <figure class="contact-figure">
+            <a href="Page4.html"><img class="left-button" src="./img/leftButton.png" title="An arrow taking you to the previous page" alt="An arrow taking you to the previous page"></a>
+            <figcaption class="contact-caption">Gallery</figcaption>
+        </figure>
+    </section>
+
+    <footer>
+        &copy; 2023. All rights reserved
+        <aside class="cookies">There are <strong>no</strong> cookies on this site!</aside>
+    </footer>
+  </body>
+</html>
