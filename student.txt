@@ -1,5 +1,8 @@
 Student name: Andrew Lia
 Student number: 709686
 Student class: IT1A
-GitHub Repository: https://github.com/AndrewLiaIH/assessment2324 (previous versions can be found at https://github.com/AndrewLiaIH/Final-project)
+GitHub Repository: https://github.com/AndrewLiaIH/assessment2324 
+
+(previous versions can be found at https://github.com/AndrewLiaIH/Final-project)
+
 GitHub Pages URL: https://andrewliaih.github.io/assessment2324/

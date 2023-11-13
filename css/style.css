@@ -1,3 +1,4 @@
+/*Here is a comment!*/
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 *{
@@ -69,7 +70,7 @@ body{
     text-decoration: underline;
   }
 
-  a:visited{
+  a:active{
     color: pink;  
     text-decoration: underline;
   }
@@ -382,6 +383,7 @@ body{
   }
 }
 
+/*Here is another comment!!*/
 @media screen and (max-width: 768px){
 
   .hompage-body{
@@ -457,7 +459,7 @@ body{
     text-decoration: underline;
   }
 
-  a:visited{
+  a:active{
     color: pink;  
     text-decoration: underline;
   }
@@ -730,3 +732,5 @@ body{
     right: 20vw;
   }
 }
+
+/*Here is the final comment!!!*/
